@@ -11,7 +11,7 @@ function App() {
     console.log('loading...');
     const response = await axios({
       method: 'POST',
-      url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBKgFhY_VwokCg3VvdChbYxXViT7ZXbSnc',
+      url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?apikey',
       headers: {
         'Content-Type': 'application/json',
       },
